@@ -1,0 +1,6 @@
+<button (click) = "onButtonClick()">Display details</button>
+<p *ngIf = "buttonClicked">Secret Password = "Tuna"</p>
+<div *ngFor="let click of clicks">
+    <p [ngStyle]="{'backgroundColor': getBackgroundColor(click)}" 
+    [ngClass] ="{white: click>5}">This is click no {{click}}</p>    
+</div>

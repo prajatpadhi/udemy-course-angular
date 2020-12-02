@@ -1,0 +1,5 @@
+<input [(ngModel)] = "username"  />
+<div>
+    The username is {{username}}
+</div>
+<button [disabled]="username==''"  (click) = "setUsernameEmpty()">Set username Empty</button>
